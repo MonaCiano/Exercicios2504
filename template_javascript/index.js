@@ -120,7 +120,7 @@ function operações(){
 operações();*/
 
 
-let n1 = parseFloat(prompt("Digite o primeiro número:"));
+/*let n1 = parseFloat(prompt("Digite o primeiro número:"));
 let n2 = parseFloat(prompt("Digite o segundo número:"));
 
 function soma(n1, n2){
@@ -145,4 +145,10 @@ console.log("Números inseridos: "+ n1 + ", " + n2 );
 console.log("Soma: " + somaDois);
 console.log("Subtração: " + subDois);
 console.log("Multiplicação: " + multDois);
-console.log("Divisão: " + divDois);
+console.log("Divisão: " + divDois);*/
+
+function executa (variavel){
+    return variavel = 356
+}
+alert(executa);
+executa(5);
