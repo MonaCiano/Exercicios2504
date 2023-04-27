@@ -24,23 +24,29 @@ b) Determine qual será a saída no console para cada uma das 3 entradas do usu�
 1 - a)*/
 
 /*function imprimirTexto() {
-    console.log("Eu sou Monalisa, tenho 29 anos, moro em Rio Grande do Sul e sou estudante.");
+    return "Eu sou Monalisa, tenho 29 anos, moro em Rio Grande do Sul e sou estudante.";
 }
 
-imprimirTexto();*/
+console.log(imprimirTexto());*/
 
 //b)
 
-/*let nome = "Maria";
-let idade = 25;
-let cidade = "Barbalha"
-let profissao = "Enfemeira"
+/*let nome = prompt("Digite seu Nome:");
+let idade = prompt("Digite sua idade:");
+let cidade = prompt("Digite sua Cidade:");
+let profissao = prompt("Digite sua profissão:");
 
 function imprimirTexto2(){
-    console.log("Eu sou "+ nome + ", tenho " + idade + ", moro em " + cidade + " e sou " + profissao);
+    return "Eu sou "+ nome + ", tenho " + idade + ", moro em " + cidade + " e sou " + profissao;
 }
 
-imprimirTexto2();*/
+console.log(imprimirTexto2());*/
+//----------------------------------------------------
+/*function informacoesPessoa(nome, idade, cidade, profissao){
+    return `Olá ${nome}` + `, tenho ${idade}` + `, moro no ${cidade}` + ` e sou ${profissao}`;
+}
+
+alert(informacoesPessoa('Gremio', 105, 'Jua', 'prof'));*/
 
 // 2
 
@@ -66,7 +72,16 @@ function setemenorquecinco() {
 }
 
 setemenorquecinco();*/
+ 
+//- professor 
 
+/*function retornaMaior (p1,p2) {
+    return p1 >= p2;
+}
+
+alert(retornaMaior(Number(1), Number(3)));*/
+
+//------------------------------------------------------------------------------
 //c) Escreva uma função que receba um número e devolva um booleano indicando se ele é par ou não
 
 /*num = prompt("Digite um número: ");
@@ -81,6 +96,14 @@ function parouimpar(){
 }
 
 parouimpar();*/
+
+// Prefessor
+
+/*function ePar (num) {
+    return num % 2 === 0; 
+}
+
+alert(ePar(56));*/
 
 //d) d) Faça uma função que recebe uma mensagem (string) como parâmetro e
 // imprima o tamanho dessa mensagem, juntamente com uma versão dela em letras maiúsculas.
@@ -147,8 +170,23 @@ console.log("Subtração: " + subDois);
 console.log("Multiplicação: " + multDois);
 console.log("Divisão: " + divDois);*/
 
-function executa (variavel){
+/*function executa (variavel){
     return variavel = 356
 }
-alert(executa);
-executa(5);
+
+executa(5);*/
+
+//---------------------------------------------------------------------------------------------
+
+//Desafios
+
+//1
+// Escreva um arrow Function que recebe um paramentro e imprime no console esse parametro
+
+let desafioA = ( meuTime) => { //MODELO ARROW FUNCTION
+    return meuTime;
+}
+
+alert(desafioA("Flamengo"));
+
+//
