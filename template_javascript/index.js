@@ -183,10 +183,21 @@ executa(5);*/
 //1
 // Escreva um arrow Function que recebe um paramentro e imprime no console esse parametro
 
-let desafioA = ( meuTime) => { //MODELO ARROW FUNCTION
-    return meuTime;
+let imprimir = (conteudo) => { //MODELO ARROW FUNCTION
+   
+    return conteudo;
 }
 
-alert(desafioA("Flamengo"));
+//alert(desafioA("Flamengo"));
 
-//
+// b
+
+let somaNums = (num1, num2) => {
+    alert(num1 + ' ' + num2);
+    
+    let soma = num1 + num2;
+    let resultado = imprimir(soma);
+    alert(resultado);
+}
+
+alert(somaNums(2,7));
